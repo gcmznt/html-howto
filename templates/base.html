@@ -2,7 +2,7 @@
 <html>
 <head>
     {% assets "css_all" %}
-    <link rel="stylesheet" type="text/css" href="{{ ASSET_URL }}">
+    <link rel="stylesheet" href="{{ ASSET_URL }}">
     {% endassets %}
 </head>
 <body>
@@ -10,7 +10,7 @@
     {% endblock main %}
 
     {% assets "js_all" %}
-    <script type="text/javascript" src="{{ ASSET_URL }}"></script>
+    <script src="{{ ASSET_URL }}"></script>
     {% endassets %}
 </body>
 </html>
